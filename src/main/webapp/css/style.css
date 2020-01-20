@@ -1,0 +1,45 @@
+html {
+  background-color: #f0f0f0;
+}
+
+body {
+  font-family: 'DejaVu Sans', Arial, Helvetica, serif;
+  font-size: 12px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  margin: 0px auto;
+  padding: 20px 20px;
+  max-width: 850px;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+div.table {
+
+}
+
+div.table > table {
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+div.table > table > tbody > tr > td, div.table > table > thead > tr > th {
+  border-left: 1px dotted #000000;
+}
+
+.fieldError {
+  border: 1px solid red;
+}
+
+img {
+  width:50%;
+}
+
+
+
+
